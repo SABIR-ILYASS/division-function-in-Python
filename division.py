@@ -90,7 +90,7 @@ def division(n):
         for i in range(len(M)):
             d = d*(M[i]**Y[i])
         D.append(d)
-    return ord(D)
+    return sortList(D)
 
 #to compare the method I used with the algorithm for determining the divisors of an integer,
 # here is a function that gives the same result with linear complexity
