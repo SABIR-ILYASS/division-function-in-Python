@@ -78,7 +78,6 @@ def sortList(l):
     return L
 
 # The main function: gives the list of positive divisors of an integer given as input
-
 def division(n):
     l = listOfDivisor(n)
     M = noRepeat(l)
