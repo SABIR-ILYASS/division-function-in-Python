@@ -12,6 +12,8 @@ Author: SABIR ILYASS, 2021.
 
 # The function below returns the first prime divisor of an integer:
 def firstDivisor(n):
+    if (n == 0 or n == 1):
+        return 1
     for i in range(2,n+1):
         if n%i == 0:
             break
